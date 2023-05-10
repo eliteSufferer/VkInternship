@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="form-container">
+    <h2>Бронирование переговорной комнаты</h2>
+    <div class="form-group">
+        <label for="tower">Выберите башню:</label>
+        <select id="tower">
+            <option value="A">A</option>
+            <option value="B">B</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="floor">Выберите этаж:</label>
+        <select id="floor">
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="room">Выберите переговорку:</label>
+        <select id="room">
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="date">Выберите дату:</label>
+        <input type="date" id="date">
+    </div>
+    <div class="form-group">
+        <label for="time">Выберите время:</label>
+        <input type="time" id="time">
+    </div>
+    <div class="form-group">
+        <label for="comment">Комментарий:</label>
+        <textarea id="comment"></textarea>
+    </div>
+    <button id="submit">Отправить</button>
+    <button id="reset" type="button">Очистить</button>
+</div>
+<script src="MainForm.js"></script>
+</body>
+</html>
